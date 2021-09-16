@@ -1,0 +1,791 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.menu-toggle {
+	display: none;
+}
+body {
+	overflow-x: hidden;
+	background-color: black;
+		
+	
+
+}
+h1,h2,h3,h4 {
+
+		/*font-family: times;*/
+		/*font-family: arial narrow;*/
+		
+		
+		
+		
+		
+		/*font-family: brush script mt;*/
+	font-family: helvetica;
+
+}
+p {		/*font-family: garamond;*/
+		/*font-family: times new roman;*/
+		/*font-family: cambria;*/
+		/*font-family: optima;*/
+		font-family: calibri;
+
+} 
+.lagu{
+background:transparent;
+border:1px solid white;
+font-family:Share\ Tech\ Mono;
+color:white;
+font-size:20px;
+font-weight:normal;
+padding:4px 50px;
+text-decoration:none;
+text-shadow:0 0 0px #15cff4
+}
+.jurusan .tombol-add {
+	width: 100%;
+	text-align: center;
+}
+.jurusan .tombol-add button{
+	width: 240px;
+	border-radius: 25px;
+	border: 2px solid white;
+	background-color: black;
+	font-size: 18px;
+	height: 50px;
+	cursor: pointer;
+	color: white;
+
+}
+.jurusan .tombol-add button:hover{
+	transition: all 0.6s;
+	transform: scale(1.1);
+	background-color: lightblue;
+}
+.jurusan .foto-foto-mesin img {
+	width: 40%;
+	margin: 10px 10px;
+}
+.jurusan {
+	text-align: center;
+	margin: 40px auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	justify-content: space-around;
+}
+.jurusan .mesin {
+	width: 50%;
+}
+.jurusan .tani {
+	width: 50%;
+}
+.jurusan p{
+	padding: 10px 70px;
+}
+.jurusan img {
+	width: 100px;
+}
+.jurusan .tulis h1{
+	color: white;
+}
+.footer p {
+		/*font-family: brush script mt;*/
+		font-family: candara;
+}
+.footer {
+	display: flex;
+	width: 100%;
+	color: white;
+}
+.footer .kotak1 {
+	background-color: black;
+	width: 50%;
+}
+.footer .kotak1 h1 {
+	text-align: center;
+	font-size: 31px;
+	padding: 10px 0;
+	margin-top: 30px;
+}
+.footer img{
+	width: 50px;
+	margin: 0 3px;
+}
+.footer img:hover{
+	transform: scale(1.1);
+}
+.footer .kotak1 p {
+	text-align: center;
+	padding: 2px 90px;
+	
+}
+.bawah {
+	width: 100%;
+	height: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+.bawah h1 {
+	line-height: 40px;
+	font-size: 20px;
+
+}
+.kotak1 .js {
+	width: 100%;
+	text-align: center;
+
+	margin: 25px auto;
+}
+
+.footer .kotak1.dua {
+	margin: 0 auto;
+}
+.footer .kotak1 table{
+	width:70%;
+}
+
+
+.galeri {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 80%;
+	margin: 50px auto;
+	background-color: black;
+}
+.galeri img {
+	width: 200px;
+	margin: 5px 7px;
+	cursor: pointer;
+
+}
+.galeri img:hover {
+	transform: scale(1.14);
+
+	transition: all 0.7s;
+	
+
+}
+.galeri .tombol-add {
+	width: 100%;
+	text-align: center;
+}
+.galeri .tombol-add button{
+	width: 400px;
+	height: 50px;
+	background-color: black;
+	border-radius: 30px;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	border: 2px solid white;
+}
+
+.prestasi {
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.prestasi .kotak .foto img {
+	height: 55px;
+	margin: 20px 0;
+}
+.kotak h2{
+	color:white;
+}
+.kotak {
+	text-align: center;
+	width: 20%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	background-color: black;
+	margin: 30px 0;
+	border:3px solid white;
+}
+.kotak .nice {
+	
+	line-height: 1.6;
+}
+.kotak .button button {
+	background-color: transparent
+	color: blue;
+	width: 180px;
+	font-size: 20px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid purple;
+}
+
+
+
+.program .fas img {
+	width: 80px;
+	margin-bottom: 20px;
+}
+.program {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.program .fas {
+	width: 24%;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.fas h2,p{
+	padding: 2px 20px;
+	color: white;
+
+}
+.main {
+	background-color: black;
+	height: 2000px;
+}
+/*pembuka kontent*/
+.main .berita-judul h1 {
+	text-align: center;
+	
+	color: white;
+	text-shadow: 2px -2px 2px blue;
+
+	padding: 40px 0 5px 0;
+	text-decoration: none;
+
+}
+.main .berita {
+	display: flex;
+	width: 80%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+
+}
+.main .berita h1 {
+	font-size: 20px;
+	color: white;
+	padding: 5px 10px;
+}
+.main .berita p {
+	font-size: 16px;
+	color: white;
+	padding: 5px 10px;
+}
+.main .berita .beri {
+	width: 30%;
+	box-shadow: 4px 4px blue;
+	margin: 15px auto;
+	padding: 10px 3px;
+	border-radius: 1px;
+	background-color: black;
+	border:3px solid white;
+}
+
+
+
+
+
+
+
+
+/*header pembuka*/
+
+.main .header {
+	height: 60px;
+	width: 100%;
+	display: flex;
+	position: relative;
+	z-index: 10000000;
+	background-color: black;
+}
+.main .header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.main .header .satu {
+	width: 63px;
+
+}
+.main .header .dua {
+	width: 35%;
+	height: 30px;
+	margin: auto 0;
+
+}
+.main .header .dua h1{
+
+	color: white;
+	font-size: 24px;
+	line-height: 30px;
+	
+}
+.main .header .tiga {
+	width: 50%;
+	margin: auto 0;
+}
+.main .header .tiga form input {
+	width: 99%;
+	background-color: black;
+	border: 4px solid white;
+	border-radius: 20px;
+	height: 50px;
+	padding-left: 20px;
+	color: white;
+}
+.main .header .empat {
+	width: 100px;
+		margin: auto 0;
+}
+.main .header .empat img {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+/*header penutup*/
+
+
+/*<!-- pembuka atas -->*/
+.main .atas {
+	width: 100%;
+	height: 50px;
+
+	background-color: black;
+}
+.main .atas ul li {
+	display: inline-block;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.main .atas ul li:hover {
+	color: blue;
+	font-size: 20px;
+	
+	background-color: black;
+}
+.atas .nav ul a li.hidup {
+	margin-left: 20px;
+	color: blue;
+}
+/*<!-- penutup atas -->*/
+
+
+
+/*<!-- pembuka tengah -->*/
+.main .tengah {
+	height: 98vh;
+	width: 100vw;
+	display: flex;
+
+}
+.tengah img{
+	height: 90vh;
+	width: 100vw;
+	
+}
+.main .tulisan h1 {
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	text-shadow: 3px -3px 3px blue;
+}
+.main .tulisan {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+
+.main .tengah .tulisan button {
+	background-color: transparent;
+	width: 200px; 
+	color: white;
+	font-size: 20px;
+	border-radius: 15px;
+	margin: 2px 3px;
+	height: 50px;
+	border: 1px solid white;
+}.main .tengah .tulisan button {
+	background-color: transparent;
+	width: 200px; 
+	color: white;
+	font-size: 20px;
+	border-radius: 15px;
+	margin: 2px 3px;
+	height: 50px;
+	border: 1px solid white;
+}
+.main .tengah .tulisan button:hover {
+	background-color: black;
+	width: 250px; 
+	color: white;
+	transition: 0.7s;
+	font-size: 20px;
+	border-radius: 15px;
+	margin: 2px 3px;
+	height: 50px;
+	border: 1px solid blue;
+}
+.berita-judul h1 {
+	 font-size: 30px;
+}
+.berita-judul.warna h1{
+font-size: 30px;
+	 background-color: #fff;
+}
+.berita-judul.warna1 h1{
+font-size: 30px;
+	 background-color: #ddd;
+}
+/*<!-- penutup tengah -->*/
+
+/*responsive header*/
+@media (min-width: 720px) and (max-width: 992px){
+	body{
+		background-color: black;
+	}
+
+	.jurusan {
+	margin: 40px auto;
+	width: 100%;
+}
+
+	.main .header .dua {
+	width: 45%;
+	height: 20px;
+
+}
+
+.main .header .tiga {
+	width: 30%;
+
+}
+
+
+
+	.main .berita .beri {
+	width: 47%;
+	
+}
+	.berita-judul h1 {
+	 font-size: 25px;
+}
+	.main .tengah {
+	height: 70vh;
+}
+.tengah img{
+	height: 70vh;
+}
+.main .tulisan h1 {
+	font-size: 33px;
+}
+.main .tulisan {
+	top: 40%;
+}
+
+.main .tengah .tulisan button {
+	width: 150px; 
+	font-size: 20px;
+	margin: 2px 3px;
+	height: 50px;
+}
+.main .tengah .tulisan button:hover {
+	width: 155px; 
+	height: 50px;
+	
+}
+.kotak {
+	
+	width: 45%;
+}
+.kotak .button button {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	justify-content: space-between;
+	width: 170px;
+	height: 40px;
+}
+.footer .kotak1 p {
+	padding: 2px 10px;
+	
+}
+
+}
+@media (max-width: 720px) {
+
+	.main .berita .beri {
+	width: 100%;
+	
+}
+.main .berita {
+	width: 100%;
+	
+
+}
+.berita-judul h1 {
+	 font-size: 20px;
+}
+	
+.nav ul{
+	display:flex;
+	position: absolute;
+	flex-direction: column;
+	background-color: black;
+	top: 5px;
+	right: 0;
+	justify-content: space-evenly;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+	z-index: 99;
+	transform: translateX(100%);
+	transition: all 1s;
+	color: white;
+	
+}
+
+.nav ul.slide {
+	transform: translateX(0);
+}
+
+.main .header .empat img {
+	display: none;
+}
+.atas {
+
+}
+	.menu-toggle {
+
+	position: absolute;
+	top: -1px;
+	right: 16px;
+	display: flex;
+	flex-direction: column;
+	height: 28px;
+	margin-top: 15px;
+	justify-content: space-between;
+}
+.menu-toggle span {
+	display: block;
+
+	width: 40px;
+	height: 5px;
+	transition: all 0.5s;
+	background-color: white;
+
+	border-radius: 3px;
+}
+
+.menu-toggle input {
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	z-index: 9999;
+	opacity: 0;
+	cursor: pointer;
+}
+
+
+.menu-toggle span:nth-child(2) {
+	transform-origin: 0 0;
+
+}
+.menu-toggle span:nth-child(4) {
+	transform-origin: 0 100%;
+
+}
+.menu-toggle input:checked ~ span:nth-child(2){
+	transform: rotate(45deg) translate(-1px, -1px);
+}
+.menu-toggle input:checked ~ span:nth-child(3){
+	transform: scale(0);
+}
+.menu-toggle input:checked ~ span:nth-child(4){
+	transform: rotate(-45deg) translate(-1px, 2px);
+}
+	.main .tengah {
+	height: 46vh;
+}
+.tengah img{
+	height: 46vh;
+}
+.main .tulisan h1 {
+	font-size: 23px;
+}
+.main .tulisan {
+	top: 30%;
+}
+
+.main .tengah .tulisan button {
+	width: 120px; 
+	font-size: 20px;
+	margin: 2px 3px;
+	height: 40px;
+}
+.main .tengah .tulisan button:hover {
+	width: 130px; 
+	height: 40px;
+	
+}
+
+
+
+.main .atas {
+	width: 0;
+	height: 0;
+
+	background-color: transparent;
+}
+.program .fas {
+	width: 90%;
+
+
+}
+.tiga form {
+	display: none;
+}
+.main .header {
+	background-color: black;
+
+}
+.main .header .dua {
+	z-index: -2;
+	width: 100%;
+	height: 30px;
+
+	margin: auto 0;
+
+}
+.main .header .dua h1 {
+
+	width: 100%;
+
+	font-size: 21px;
+	padding-left: 4px;
+	color: white;
+
+
+}
+.main .header .satu {
+	
+	margin: auto 0;
+}
+.main .header img {
+	height: 40px;
+	width: 40px;
+
+}
+.main .header .tiga {
+	width: 1%;
+	margin: auto 0;
+}
+.kotak {
+	
+	width: 90%;
+}
+.kotak .button button {
+	margin-bottom: 40px;
+	margin-top: 10px;
+	width: 170px;
+	height: 40px;
+}
+
+
+
+.galeri {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	margin: 20px auto;
+	background-color: black;
+}
+.galeri img {
+	width: 200px;
+	margin: 5px 7px;
+	cursor: pointer;
+
+}
+.galeri img:hover {
+	transform: scale(1.14);
+
+	transition: all 0.7s;
+	
+
+}
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: salmon;
+	color: white;
+}
+.footer .kotak1 {
+	background-color: black;
+	width: 100%;
+}
+
+.footer img{
+	width: 40px;
+}
+.footer .kotak1 p {
+	text-align: center;
+	padding: 2px 10px;
+	
+}
+
+.bawah h1 {
+	line-height: 40px;
+	font-size: 20px;
+
+}
+.kotak1 .js {
+	width: 100%;
+	text-align: center;
+
+	margin: 25px auto;
+}
+
+.footer .kotak1.dua {
+	margin: 0 auto;
+}
+.footer .kotak1 table{
+	width:90%;
+}
+.jurusan .mesin {
+	width: 100%;
+}
+.jurusan .tani {
+	width: 100%;
+}
+.jurusan img {
+	width: 60px;
+	margin-top: 40px;
+}
+.jurusan p{
+	padding: 10px 8px;
+}
+.jurusan {
+	margin: 1px 0 50px 0;
+	width: 100%;
+}
+
+}
+
+/*selesai*/
+
+
+
